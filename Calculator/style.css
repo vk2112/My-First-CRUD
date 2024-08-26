@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.display {
+
+}
+
+.assign {
+display: grid;
+}
+
+.inputs {
+display: grid(4, 3);
+
+}

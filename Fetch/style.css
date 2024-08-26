@@ -1,0 +1,45 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#post-over24 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+#post-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.post {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 16px;
+
+}
+
+p {
+    font-size: 12px;
+    padding: 10px 0;
+}

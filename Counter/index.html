@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="count">0</div>
+            <input id="increase" type="button" value="+">
+            <input id="decrease" type="button" value="-">
+    </div>
+   <script>
+    const counter = document.getElementById('count');
+let count = 0;
+
+document.getElementById('increase').addEventListener('click', () => {
+    if (count < 10 & count >= -10){
+        count++;
+    }
+    else {
+        count = count + 2;
+    } 
+    
+    console.log("increase",count);
+    counter.textContent = count;
+});
+
+document.getElementById('decrease').addEventListener('click', () => {
+    if (count <= 10 & count > -10) {
+        count--;
+    }
+    else {
+        count = count - 2;
+    }
+    counter.textContent = count;
+    console.log("decrease",count);
+})
+   </script> 
+</body>
+</html>

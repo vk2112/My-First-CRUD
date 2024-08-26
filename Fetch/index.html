@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fetch</title>
+</head>
+<body>
+    <h1>JavaScript Fetch</h1>
+    <button id="posts">Post</button>
+    <button id="create-post">Create Post</button>
+    <div id="post-over24"></div>
+    <div id="post-container"></div>
+    
+    <div id="edit-form" style="display: none;">
+        <input type="text" id="input-title" placeholder="New Title">
+        <textarea name="" id="input-body">New Body</textarea>
+        <button id="update-btn">Update</button>
+    </div>
+
+    <div id="create-form" style="display: none;">
+        <input type="text" id="new-title" placeholder="Post Title">
+        <textarea name="" id="new-body" placeholder="Post Body"></textarea>
+        <button id="submit-post">SUBMIT</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
